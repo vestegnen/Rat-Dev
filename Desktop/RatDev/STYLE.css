@@ -1,0 +1,35 @@
+#GarbageMan {
+    color: rgb(0, 0, 0);
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 3vw;
+    padding: 3vw;
+}
+.background {
+    background: #415583;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px;
+}
+
+img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+#Game {
+    width: 20vw;
+    height: 20vw;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 80px;
+    min-height: 80px;
+    object-fit: cover;
+    border-radius: 20%;
+}
